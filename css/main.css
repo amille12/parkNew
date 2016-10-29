@@ -1,0 +1,44 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+/*Specific Divs to Style */
+
+.wideImage1 {
+  background-image: url("/img/breakfast.jpeg");
+  background-size: cover;
+  height: 800px;
+}
+.aboutUs {
+  padding: 50px;
+  margin: 50px;
+  border-bottom: 3px solid red;
+}
+
+.wideImage2 {
+  background-image: url("/img/diner.jpeg");
+  background-size: cover;
+  height: 800px;
+}
+
+.menu {
+  padding: 50px;
+  margin: 50px;
+  border-bottom: 3px solid red;
+}
+.mainHeader2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu2 {
+  display: flex;
+  justify-content: center;
+}
