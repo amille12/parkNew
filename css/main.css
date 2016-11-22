@@ -4,12 +4,32 @@
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
 /*Specific Divs to Style */
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+
+.mainHeader2 {
+  padding: 10px;
+  height: 400px;
+  margin-top: 40px;
+}
 
 .wideImage1 {
   background-image: url("/img/breakfast.jpeg");
@@ -20,6 +40,31 @@
   padding: 50px;
   margin: 50px;
   border-bottom: 3px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;;
+}
+
+.textContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.item1, .item2, .item3 {
+  padding: 20px;
+}
+
+.callNow {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#aboutPic {
+  width: 500px;
+  height: 300px;
 }
 
 .wideImage2 {
@@ -29,8 +74,7 @@
 }
 
 .menu {
-  padding: 50px;
-  margin: 50px;
+  padding: 20px;
   border-bottom: 3px solid red;
 }
 .mainHeader2 {
