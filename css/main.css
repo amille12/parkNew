@@ -94,6 +94,13 @@ html, body {
   border-radius: 5px;
 }
 
+.callNow:hover {
+  background: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
 #aboutPic {
   width: 500px;
   height: 300px;
@@ -128,7 +135,20 @@ html, body {
   color: white;
 }
 
-.footerBottom {
+.textContainerFooter {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  background-color: black;
+}
+
+.footerItem {
+  margin: 40px;
+}
+
+/*.footerBottom {
   background-color: #333333;
 }
 
@@ -138,7 +158,7 @@ html, body {
 
 .footerAddress {
   padding: 20px;
-}
+}*/
 
 
 #socialicons {
@@ -158,8 +178,8 @@ html, body {
     margin: 5px 5px 16px;
 }
 #socialicons .icon:hover{
-    color: white;
-    border: 1px solid #CFCFCF;
+    color: black;
+    background-color: white;
 }
 
 
