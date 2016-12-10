@@ -5,6 +5,11 @@
    ========================================================================== */
 
 /*Specific Divs to Style */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 
 .navbar-fixed-top .nav {
     padding: 15px 0;
@@ -74,9 +79,9 @@
 }
 
 .menu {
-  padding: 20px;
-  border-bottom: 3px solid red;
+  padding: 40px;
 }
+
 .mainHeader2 {
   display: flex;
   align-items: center;
@@ -87,13 +92,64 @@
   justify-content: center;
 }
 
-#footerWrapper {
-  background: #000000;
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #000000;
   color: white;
-  width: 100%;
 }
-#footerRights {
-  background: #333333;
-  height: 50px;
-  width: 100%;
+
+.footerBottom {
+  background-color: #333333;
 }
+
+.footerDescription p {
+  padding: 20px;
+}
+
+.footerAddress {
+  padding: 20px;
+}
+
+
+#socialicons {
+    text-align: center;
+}
+#socialicons .icon{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px 5px 16px;
+}
+#socialicons .icon:hover{
+    color: white;
+    border: 1px solid #CFCFCF;
+}
+
+
+/*.footerSocial {
+  text-align: center;
+}
+.footerSocial ul {
+  display: inline-block;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  vertical-align: center;
+  margin: 0 1px 8px;
+}
+.footerSocial ul li {
+  display: inline;
+}*/
